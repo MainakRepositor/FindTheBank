@@ -43,7 +43,7 @@ def run():
     st.title("FIND THE BANK")
     
     ## Textbox for getting IFSC from the user
-    ifsc = st.text_input('Enter your Bank IFSC Code Eg: KARB0000001')
+    ifsc = st.text_input('Enter your Bank IFSC Code Eg: SBIN0000001')
     if st.button("Search"):
         bank_data = Bank_Data_Finder(ifsc)
         # data = pd.DataFrame(bank_data)
